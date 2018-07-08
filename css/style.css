@@ -463,13 +463,6 @@ body {
 
   @media(max-width: 768px) {
 
-    .masthead-brand {
-      float: left;
-    }
-    .nav-masthead {
-      float: right;
-    }
-
     #navSpy {
         margin-right: 0px;
     }
