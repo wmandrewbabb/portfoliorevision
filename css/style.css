@@ -94,6 +94,10 @@ body {
     bottom: -1rem; */
 }
 
+#enterDiv {
+  min-height: 100vh;
+}
+
 /*
  * Header
  */
