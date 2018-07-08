@@ -479,15 +479,15 @@ body {
 
     #contactContent {
       margin-top: 4vh;
-      margin-right: -30px;
+      margin-right: 0px;
     }
 
     #aboutContent {
-      margin-right: -30px;
+      margin-right: 0px;
     }
 
     #portfolioContent{
-      margin-right: -30px;
+      margin-right: 0px;
     }
     .downArrow {
       display: none;
