@@ -1,0 +1,404 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Alfa Slab One', cursive; */
+
+.navbar {
+    background-color:rgba(204, 204, 204, 0);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    text-align: center;
+}
+
+.shrink {
+    background-color: #278aae;
+    min-height: 35px;
+  }
+
+#helloJumbotron {
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 55vh;
+}
+
+#helloComma {
+    max-height: 20vh;
+    max-width: auto;
+    margin-left: 1rem;
+    margin-right: 20%;
+    margin-bottom: 2vh;
+}
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+  text-decoration: none!important;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*s
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-image: url("../images/fullstacktopduotone.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom; 
+  background-size:cover;
+  background-color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  /* margin: 0px;
+  padding: 0px; */
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.brandicon {
+    max-height: 2rem;
+    max-width: auto;
+    /* visibility: hidden; */
+    /* position: relative;
+    bottom: -1rem; */
+}
+
+/*
+ * Header
+ */
+
+ .tiny {font-size:  1rem;}
+ .small {font-size: 2rem;}
+ .medium {font-size: 4rem;}
+ .large {font-size: 6rem;}
+
+.masthead {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+#aboutcol{
+    background-color: #F77F00;
+    overflow: hidden;
+    position: relative;
+}
+
+#abouttext {
+    position: absolute;
+    font-size: 3rem;
+    transform: rotate(-90deg);
+    font-family: 'Poppins', sans-serif;
+    right: -35%;
+    top: 13rem;
+    text-shadow: 0 0 white;
+    line-height: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#aboutContent {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 10%;
+}
+
+#aboutCard {
+    border-width: 0px;
+}
+
+#contactCard {
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#contactContent {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10%;
+    margin-top: 15vh;
+}
+
+#contacttext {
+    position: absolute;
+    font-size: 3rem;
+    transform: rotate(-90deg);
+    font-family: 'Poppins', sans-serif;
+    right: -35%;
+    top: 18rem;
+    text-shadow: 0 0;
+    line-height: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: #F6AE2D;
+}
+
+#righttext {
+    position: absolute;
+    font-size: 3rem;
+    transform: rotate(90deg);
+    font-family: 'Poppins', sans-serif;
+    left: -35%;
+    top: 7rem;
+    text-shadow: 0 0;
+    line-height: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: #F77F00;
+}
+
+
+#contactcol{
+    background-color: #003049;
+    overflow: hidden;
+    position: relative;
+}
+
+#portfoliocol{
+    background-color: #F6AE2D;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.masthead-brand {
+  visibility: hidden;
+  margin-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+
+#stopUnderline {
+    text-decoration: none!important;
+}
+
+#stopUnderline:hover {
+    text-decoration: underline 0px;
+}
+
+.cardrow {
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+.page-footer {
+    background-color: #003049;
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+.card-deck {
+    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#aboutrow{
+    background-color:white;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.fab {
+    color: black;
+    margin-right: 5px;
+}
+
+#portfoliorow{
+    background-color:#F77F00;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+#contactrow{
+    background-color: #F6AE2D;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.container {
+    min-width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-text {
+    color: black;
+}
+
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .row.no-gutter [class*='col-']:not(:first-child),
+  .row.no-gutter [class*='col-']:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  @media(max-width: 48em) {
+    #aboutcol{
+        background-color: orange;
+        position: relative;
+        min-width: 100%;
+        text-align: center;
+        max-height: 2.5rem;   
+        min-height: 2.5rem;
+    }
+
+    #contactcol{
+        background-color: #F77F00;
+        position: relative;
+        min-width: 100%;
+        text-align: center;
+        max-height: 2.5rem;   
+        min-height: 2.5rem;
+
+    }
+    
+    #abouttext {
+        position: absolute;
+        font-size: 2rem;
+        transform: rotate(0deg);
+        font-family: 'Poppins', sans-serif;
+        right: 0px;
+        top: .8rem;
+        text-shadow: 0 0 white;
+        line-height: 1;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #contacttext {
+        position: absolute;
+        font-size: 2rem;
+        transform: rotate(0deg);
+        font-family: 'Poppins', sans-serif;
+        right: 0px;
+        top: .8rem;
+        text-shadow: 0 0 white;
+        line-height: 1;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        color: #F6AE2D;
+    }
+
+    #portfoliocol{
+        background-color: white;
+        /* color: #F77F00; */
+        /* overflow: hidden; */
+        position: relative;
+        min-width: 100%;
+        text-align: center;
+        max-height: 2.5rem;
+        min-height: 2.5rem;
+ 
+    }
+
+    #righttext {
+        position: absolute;
+        font-size: 2rem;
+        transform: rotate(0deg);
+        font-family: 'Poppins', sans-serif;
+        color: #F77F00;
+        left: auto;
+        right: auto;
+        top: .8rem;
+        text-shadow: 0 0 white;
+        line-height: 1;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center; 
+    }
+  }
