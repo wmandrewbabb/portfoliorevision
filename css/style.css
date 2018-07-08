@@ -477,6 +477,10 @@ body {
 
   @media(max-width: 768px) {
 
+    .downArrow {
+      display: none;
+    }
+
     #enterDiv {
       min-height: 85vh;
       background-image: url("../images/fullstacktopduotone.png");
