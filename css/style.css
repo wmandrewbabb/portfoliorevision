@@ -475,7 +475,7 @@ body {
     padding-left: 0;
   }
 
-  @media(max-width: 769px) {
+  @media(max-width: 993px) {
 
     #contactContent {
       margin-top: 4vh;
