@@ -58,7 +58,7 @@ a:hover {
 
 html,
 body {
-  height: 100%;
+  height: 100vh;
   background-image: url("../images/fullstacktopduotone.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -476,6 +476,14 @@ body {
   }
 
   @media(max-width: 768px) {
+
+    #enterDiv {
+      min-height: 85vh;
+      background-image: url("../images/fullstacktopduotone.png");
+      background-repeat: no-repeat;
+      background-position: center bottom; 
+      background-size:cover;
+    }
 
     #navSpy {
         margin-right: 0px;

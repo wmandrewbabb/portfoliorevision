@@ -8,6 +8,8 @@ $(window).scroll(function() {
     }
   });
 
+  
+
   // Scroll to specific values
 // scrollTo is the same
 // window.scroll({
