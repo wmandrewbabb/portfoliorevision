@@ -200,6 +200,7 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  margin-left: 10%;
 }
 
 
@@ -332,6 +333,10 @@ body {
   @media(max-width: 48em) {
     #navSpy {
         margin-right: 0px;
+    }
+
+    .masthead-brand {
+        margin-left: 0px;
     }
 
     #aboutcol{
