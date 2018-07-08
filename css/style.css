@@ -382,7 +382,7 @@ body {
   }
   
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .masthead-brand {
     float: left;
   }
@@ -475,12 +475,20 @@ body {
     padding-left: 0;
   }
 
-  @media(max-width: 768px) {
+  @media(max-width: 769px) {
 
     #contactContent {
       margin-top: 4vh;
+      margin-right: -15px;
     }
 
+    #aboutContent {
+      margin-right: -15px;
+    }
+
+    #portfolioContent{
+      margin-right: -15px;
+    }
     .downArrow {
       display: none;
     }
