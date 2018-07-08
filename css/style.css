@@ -477,6 +477,10 @@ body {
 
   @media(max-width: 768px) {
 
+    #contactContent {
+      margin-top: 4vh;
+    }
+
     .downArrow {
       display: none;
     }
