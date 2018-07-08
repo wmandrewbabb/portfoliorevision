@@ -196,7 +196,17 @@ body {
     background-color: #F6AE2D;
     /* overflow: hidden; */
     position: relative;
+    display: block;
 }
+
+#portfoliocolfix{
+  background-color: #F6AE2D;
+  /* overflow: hidden; */
+  position: relative;
+  display: none;
+}
+
+
 
 .masthead-brand {
   visibility: hidden;
@@ -532,8 +542,20 @@ body {
         text-align: center;
         max-height: 2.5rem;
         min-height: 2.5rem;
- 
+        display: none;
     }
+
+    #portfoliocolfix{
+      background-color: white;
+      /* color: #F77F00; */
+      /* overflow: hidden; */
+      position: relative;
+      min-width: 100%;
+      text-align: center;
+      max-height: 2.5rem;
+      min-height: 2.5rem;
+      display: block;
+  }
 
     #righttext {
         position: absolute;
