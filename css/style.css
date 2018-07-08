@@ -479,16 +479,16 @@ body {
 
     #contactContent {
       margin-top: 4vh;
-      margin-right: 0px;
+      /* margin-right: 0px; */
     }
 
-    #aboutContent {
+    /* #aboutContent {
       margin-right: 0px;
     }
 
     #portfolioContent{
       margin-right: 0px;
-    }
+    } */
     .downArrow {
       display: none;
     }
