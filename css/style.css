@@ -368,7 +368,7 @@ body {
   }
   
 
-@media (min-width: 48em) {
+@media (min-width: 768px) {
   .masthead-brand {
     float: left;
   }
