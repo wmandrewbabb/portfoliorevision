@@ -29,6 +29,9 @@ font-family: 'Alfa Slab One', cursive; */
     margin-bottom: 2vh;
 }
 
+.pLink {
+  color: black;
+}
 /*
  * Globals
  */
